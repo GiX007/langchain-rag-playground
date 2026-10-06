@@ -1,6 +1,14 @@
 langchain
-langchain-core
 langgraph
+langchain-core
 langchain-openai
 langchain-anthropic
+langchain-community
+langchain-chroma
+langchain-experimental
+langchain-postgres 
+psycopg[binary]
 python-dotenv
+pypdf
+chromadb
+rank_bm25

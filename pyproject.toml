@@ -1,16 +1,13 @@
 [project]
-name = "rag-demo"
+name = "langchain-rag-playground"
 version = "0.1.0"
-description = "Add your description here"
+description = "Small LangChain scripts to try RAG techniques: loading, chunking, embeddings, vector stores, hybrid search, monitoring."
 readme = "README.md"
 authors = [
     { name = "Georgios Xydias", email = "gxydias.ece@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = []
-
-[project.scripts]
-rag-demo = "rag_demo:main"
 
 [build-system]
 requires = ["uv_build>=0.12.21,<0.13.0"]
